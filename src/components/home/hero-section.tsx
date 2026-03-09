@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight, Zap } from "lucide-react";
@@ -10,20 +11,14 @@ export function HeroSection() {
 
   return (
     <section className="relative min-h-[90vh] flex items-center bg-navy overflow-hidden">
-      {/* Background effects */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy" />
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-electric/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 left-1/4 w-72 h-72 bg-electric-light/5 rounded-full blur-3xl" />
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.5) 1px, transparent 1px)",
-            backgroundSize: "60px 60px",
-          }}
-        />
-      </div>
+      <Image
+        src="/images/hero-home.jpg"
+        alt="EV Charging Solutions"
+        fill
+        className="object-cover object-right opacity-30 lg:opacity-40"
+        priority
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/40" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 lg:py-40">
         <div className="max-w-3xl">

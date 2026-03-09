@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Shield, Award, FileCheck, Globe, CheckCircle2 } from "lucide-react";
 
@@ -83,6 +84,17 @@ export default function CertificationsPage() {
             <div className="text-sm font-medium">{t("subsidies")}</div>
             <p className="text-xs text-muted-foreground mt-1">{t("subsidiesDesc")}</p>
           </div>
+        </div>
+
+        {/* Certificate Gallery */}
+        <div className="mb-16 rounded-2xl overflow-hidden border border-border">
+          <Image
+            src="/images/certs/certificates.jpg"
+            alt="Enterprise Qualification Certificates"
+            width={1400}
+            height={980}
+            className="w-full h-auto"
+          />
         </div>
 
         {/* Certification Groups */}

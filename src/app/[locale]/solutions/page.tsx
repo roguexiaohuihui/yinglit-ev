@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import {
@@ -124,9 +125,13 @@ export default function SolutionsPage() {
                 </div>
 
                 <div className={`aspect-[4/3] bg-secondary rounded-2xl relative overflow-hidden ${isEven ? "lg:order-1" : ""}`}>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <Icon className="w-24 h-24 text-primary/10" />
-                  </div>
+                  <Image
+                    src={sol.image}
+                    alt={sol.key}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
                 </div>
               </div>
             );

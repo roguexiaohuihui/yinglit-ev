@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Cpu, Factory, Globe, Calendar } from "lucide-react";
 
@@ -32,11 +33,44 @@ export default function AboutPage() {
           </p>
         </div>
 
-        {/* Story */}
-        <div className="max-w-3xl mx-auto mb-20">
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            {t("story")}
-          </p>
+        {/* Story + Factory Image */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+          <div>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              {t("story")}
+            </p>
+          </div>
+          <div className="space-y-4">
+            <div className="rounded-2xl overflow-hidden aspect-[16/10]">
+              <Image
+                src="/images/about/factory.jpg"
+                alt="Yingli Technology Headquarters"
+                width={800}
+                height={500}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="rounded-xl overflow-hidden aspect-[4/3]">
+                <Image
+                  src="/images/about/production.jpg"
+                  alt="Production Line"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden aspect-[4/3]">
+                <Image
+                  src="/images/about/warehouse.jpg"
+                  alt="Warehouse & Testing"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Strengths */}

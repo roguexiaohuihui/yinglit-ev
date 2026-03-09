@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
-import { Zap, Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const PRODUCT_LINKS = [
   { label: "Portable Charger", href: "/products?category=portable-charger" },
@@ -29,12 +30,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="lg:col-span-1">
             <Link href={`/${locale}`} className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-electric rounded-lg flex items-center justify-center">
-                <Zap className="w-5 h-5 text-navy" />
-              </div>
-              <span className="font-heading text-xl font-bold text-white tracking-tight">
-                Yinglit
-              </span>
+              <Image
+                src="/logo-yingli.jpg"
+                alt="Yingli Technology"
+                width={140}
+                height={40}
+                className="h-8 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="text-sm text-white/60 leading-relaxed">
               {t("tagline")}

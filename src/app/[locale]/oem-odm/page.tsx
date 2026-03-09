@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import {
@@ -132,6 +133,38 @@ export default function OemOdmPage() {
                 </div>
               );
             })}
+          </div>
+        </div>
+
+        {/* Partner Brands */}
+        <div className="mb-20">
+          <h2 className="font-heading text-2xl font-bold text-center mb-6">
+            {locale === "zh" ? "合作品牌" : "Trusted Partners"}
+          </h2>
+          <div className="rounded-2xl overflow-hidden">
+            <Image
+              src="/images/oem/partner-logos.jpg"
+              alt="Partner brands including Toyota, Tesla, Audi, Nissan, KIA and more"
+              width={1200}
+              height={400}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+
+        {/* Factory Tour */}
+        <div className="mb-20">
+          <h2 className="font-heading text-2xl font-bold text-center mb-6">
+            {locale === "zh" ? "工厂实景" : "Factory Tour"}
+          </h2>
+          <div className="rounded-2xl overflow-hidden">
+            <Image
+              src="/images/oem/factory-tour.jpg"
+              alt="Yingli Technology factory tour"
+              width={1200}
+              height={400}
+              className="w-full h-auto"
+            />
           </div>
         </div>
 

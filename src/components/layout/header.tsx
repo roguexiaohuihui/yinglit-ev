@@ -4,7 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
-import { Menu, X, ChevronDown, Globe, Zap } from "lucide-react";
+import Image from "next/image";
+import { Menu, X, ChevronDown, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
@@ -31,12 +32,14 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href={`/${locale}`} className="flex items-center gap-2 group">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <Zap className="w-5 h-5 text-white" />
-            </div>
-            <span className="font-heading text-xl font-bold text-navy tracking-tight">
-              Yinglit
-            </span>
+            <Image
+              src="/logo-yingli.jpg"
+              alt="Yingli Technology"
+              width={140}
+              height={40}
+              className="h-8 w-auto"
+              priority
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
