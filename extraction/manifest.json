@@ -1,0 +1,485 @@
+{
+  "source": "Yinglit EV Charger 2026.pdf",
+  "total_pages": 30,
+  "extracted_at": "2026-03-09",
+  "statistics": {
+    "page_types": {
+      "cover": 1,
+      "company_intro": 1,
+      "certification": 5,
+      "general_content": 5,
+      "product_spec": 15,
+      "cloud_platform": 2,
+      "image_only": 1
+    },
+    "total_skus_detected": 42,
+    "total_tables": 11,
+    "total_product_images": 0
+  },
+  "sku_index": [
+    "YLEV11K-Y2",
+    "YLEV22K-Y3",
+    "YLEV035K-P035",
+    "YLEV11K-P11",
+    "YLEV11K-S2",
+    "YLEV22K-S3",
+    "YLEV32A-L1",
+    "YLEV40A-L2",
+    "YLEV48A-L3",
+    "YLEV32A-S1",
+    "YLEV40A-S2",
+    "YLEV48A-S3",
+    "YLEV11K-P2",
+    "YLEV22K-P3",
+    "YLEV14K-T1",
+    "YLEV22K-T2",
+    "YLEV44K-T3",
+    "YLEV14K-AD1",
+    "YLEV22K-AD2",
+    "YLEV44K-AD3",
+    "YLEV30K-D1",
+    "YLEV40K-D2",
+    "YLEV60K-D3",
+    "YLEV60K-D4",
+    "YLEV30K-M2",
+    "YLEV40K-M4",
+    "YLEV120K-D5",
+    "YLEV150K-D6",
+    "YLEV180K-D7",
+    "YLEV240K-D8",
+    "YLEV300K-D10",
+    "YLEV300K-D9",
+    "YLEV60K-D7",
+    "YLEV480K-D11",
+    "YLEV600K-D12",
+    "YLEV720K-D13",
+    "YLEV250K-D14",
+    "YLIBS215-B14",
+    "YLIES480-K14",
+    "YLEN10K-E1",
+    "YLEN15K-E1",
+    "YLEN20K-E1"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "type": "cover",
+      "text_file": "text/page_01.md",
+      "image_file": "images/page_01.jpg",
+      "char_count": 329,
+      "image_count": 24,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 2,
+      "type": "company_intro",
+      "text_file": "text/page_02.md",
+      "image_file": "images/page_02.jpg",
+      "char_count": 1266,
+      "image_count": 16,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 3,
+      "type": "certification",
+      "text_file": "text/page_03.md",
+      "image_file": "images/page_03.jpg",
+      "char_count": 973,
+      "image_count": 14,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 4,
+      "type": "general_content",
+      "text_file": "text/page_04.md",
+      "image_file": "images/page_04.jpg",
+      "char_count": 145,
+      "image_count": 32,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 5,
+      "type": "general_content",
+      "text_file": "text/page_05.md",
+      "image_file": "images/page_05.jpg",
+      "char_count": 173,
+      "image_count": 18,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 6,
+      "type": "general_content",
+      "text_file": "text/page_06.md",
+      "image_file": "images/page_06.jpg",
+      "char_count": 173,
+      "image_count": 17,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 7,
+      "type": "general_content",
+      "text_file": "text/page_07.md",
+      "image_file": "images/page_07.jpg",
+      "char_count": 842,
+      "image_count": 6,
+      "detected_skus": [
+        "YLEV11K-Y2",
+        "YLEV22K-Y3"
+      ],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 8,
+      "type": "product_spec",
+      "text_file": "text/page_08.md",
+      "image_file": "images/page_08.jpg",
+      "char_count": 1616,
+      "image_count": 4,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 9,
+      "type": "cloud_platform",
+      "text_file": "text/page_09.md",
+      "image_file": "images/page_09.jpg",
+      "char_count": 486,
+      "image_count": 11,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 10,
+      "type": "product_spec",
+      "text_file": "text/page_10.md",
+      "image_file": "images/page_10.jpg",
+      "char_count": 1246,
+      "image_count": 5,
+      "detected_skus": [
+        "YLEV035K-P035",
+        "YLEV11K-P11"
+      ],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 11,
+      "type": "product_spec",
+      "text_file": "text/page_11.md",
+      "image_file": "images/page_11.jpg",
+      "char_count": 1574,
+      "image_count": 9,
+      "detected_skus": [
+        "YLEV11K-Y2",
+        "YLEV22K-Y3"
+      ],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 12,
+      "type": "product_spec",
+      "text_file": "text/page_12.md",
+      "image_file": "images/page_12.jpg",
+      "char_count": 1622,
+      "image_count": 8,
+      "detected_skus": [
+        "YLEV11K-S2",
+        "YLEV22K-S3"
+      ],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 13,
+      "type": "product_spec",
+      "text_file": "text/page_13.md",
+      "image_file": "images/page_13.jpg",
+      "char_count": 1482,
+      "image_count": 6,
+      "detected_skus": [
+        "YLEV32A-L1",
+        "YLEV40A-L2",
+        "YLEV48A-L3"
+      ],
+      "tables": [
+        "tables/page_13_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 14,
+      "type": "product_spec",
+      "text_file": "text/page_14.md",
+      "image_file": "images/page_14.jpg",
+      "char_count": 1588,
+      "image_count": 6,
+      "detected_skus": [
+        "YLEV32A-S1",
+        "YLEV40A-S2",
+        "YLEV48A-S3"
+      ],
+      "tables": [
+        "tables/page_14_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 15,
+      "type": "product_spec",
+      "text_file": "text/page_15.md",
+      "image_file": "images/page_15.jpg",
+      "char_count": 1992,
+      "image_count": 9,
+      "detected_skus": [
+        "YLEV11K-P2",
+        "YLEV22K-P3"
+      ],
+      "tables": [
+        "tables/page_15_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 16,
+      "type": "product_spec",
+      "text_file": "text/page_16.md",
+      "image_file": "images/page_16.jpg",
+      "char_count": 1734,
+      "image_count": 5,
+      "detected_skus": [
+        "YLEV14K-T1",
+        "YLEV22K-T2",
+        "YLEV44K-T3"
+      ],
+      "tables": [
+        "tables/page_16_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 17,
+      "type": "product_spec",
+      "text_file": "text/page_17.md",
+      "image_file": "images/page_17.jpg",
+      "char_count": 1679,
+      "image_count": 4,
+      "detected_skus": [
+        "YLEV14K-T1",
+        "YLEV22K-T2",
+        "YLEV44K-T3"
+      ],
+      "tables": [
+        "tables/page_17_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 18,
+      "type": "product_spec",
+      "text_file": "text/page_18.md",
+      "image_file": "images/page_18.jpg",
+      "char_count": 1865,
+      "image_count": 3,
+      "detected_skus": [
+        "YLEV14K-AD1",
+        "YLEV22K-AD2",
+        "YLEV44K-AD3"
+      ],
+      "tables": [
+        "tables/page_18_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 19,
+      "type": "product_spec",
+      "text_file": "text/page_19.md",
+      "image_file": "images/page_19.jpg",
+      "char_count": 1991,
+      "image_count": 7,
+      "detected_skus": [
+        "YLEV30K-D1",
+        "YLEV40K-D2",
+        "YLEV60K-D3",
+        "YLEV60K-D4"
+      ],
+      "tables": [
+        "tables/page_19_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 20,
+      "type": "product_spec",
+      "text_file": "text/page_20.md",
+      "image_file": "images/page_20.jpg",
+      "char_count": 1937,
+      "image_count": 6,
+      "detected_skus": [
+        "YLEV30K-M2",
+        "YLEV40K-M4"
+      ],
+      "tables": [
+        "tables/page_20_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 21,
+      "type": "product_spec",
+      "text_file": "text/page_21.md",
+      "image_file": "images/page_21.jpg",
+      "char_count": 2252,
+      "image_count": 3,
+      "detected_skus": [
+        "YLEV120K-D5",
+        "YLEV60K-D4"
+      ],
+      "tables": [
+        "tables/page_21_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 22,
+      "type": "product_spec",
+      "text_file": "text/page_22.md",
+      "image_file": "images/page_22.jpg",
+      "char_count": 1975,
+      "image_count": 7,
+      "detected_skus": [
+        "YLEV120K-D5",
+        "YLEV150K-D6",
+        "YLEV180K-D7",
+        "YLEV240K-D8"
+      ],
+      "tables": [
+        "tables/page_22_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 23,
+      "type": "product_spec",
+      "text_file": "text/page_23.md",
+      "image_file": "images/page_23.jpg",
+      "char_count": 1908,
+      "image_count": 7,
+      "detected_skus": [
+        "YLEV300K-D10",
+        "YLEV300K-D9"
+      ],
+      "tables": [
+        "tables/page_23_table_01.md"
+      ],
+      "product_images": []
+    },
+    {
+      "page": 24,
+      "type": "certification",
+      "text_file": "text/page_24.md",
+      "image_file": "images/page_24.jpg",
+      "char_count": 1998,
+      "image_count": 3,
+      "detected_skus": [
+        "YLEV60K-D7"
+      ],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 25,
+      "type": "certification",
+      "text_file": "text/page_25.md",
+      "image_file": "images/page_25.jpg",
+      "char_count": 2143,
+      "image_count": 3,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 26,
+      "type": "certification",
+      "text_file": "text/page_26.md",
+      "image_file": "images/page_26.jpg",
+      "char_count": 2503,
+      "image_count": 7,
+      "detected_skus": [
+        "YLEV480K-D11",
+        "YLEV600K-D12",
+        "YLEV720K-D13"
+      ],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 27,
+      "type": "general_content",
+      "text_file": "text/page_27.md",
+      "image_file": "images/page_27.jpg",
+      "char_count": 2290,
+      "image_count": 4,
+      "detected_skus": [
+        "YLEV250K-D14",
+        "YLIBS215-B14",
+        "YLIES480-K14"
+      ],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 28,
+      "type": "certification",
+      "text_file": "text/page_28.md",
+      "image_file": "images/page_28.jpg",
+      "char_count": 2470,
+      "image_count": 2,
+      "detected_skus": [
+        "YLEN10K-E1",
+        "YLEN15K-E1",
+        "YLEN20K-E1"
+      ],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 29,
+      "type": "cloud_platform",
+      "text_file": "text/page_29.md",
+      "image_file": "images/page_29.jpg",
+      "char_count": 1953,
+      "image_count": 9,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    },
+    {
+      "page": 30,
+      "type": "image_only",
+      "text_file": "text/page_30.md",
+      "image_file": "images/page_30.jpg",
+      "char_count": 19,
+      "image_count": 15,
+      "detected_skus": [],
+      "tables": [],
+      "product_images": []
+    }
+  ]
+}

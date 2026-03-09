@@ -4,3 +4,7 @@ node_modules/
 *.log
 .DS_Store
 .env*.local
+
+# Extraction: keep text data, ignore rendered images (11MB+)
+extraction/images/
+extraction/products/
