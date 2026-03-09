@@ -127,7 +127,7 @@
       "Dynamic Load Balance with CT+Meter",
       "LED/LCD 3.5\" display + RFID"
     ],
-    "images": ["/images/products/home-ac-charger.jpg"],
+    "images": ["/images/products/home-wallbox-cable.jpg"],
     "specifications": {
       "power": "7KW",
       "input": "230VAC±20%, 50/60Hz, 32A, 1-phase",
@@ -169,7 +169,7 @@
       "Dynamic Load Balance with CT+Meter",
       "3-phase power for faster charging"
     ],
-    "images": ["/images/products/home-ac-charger.jpg"],
+    "images": ["/images/products/home-wallbox-cable.jpg"],
     "specifications": {
       "power": "11KW",
       "input": "400VAC±20%, 50/60Hz, 16A, 3-phase",
@@ -211,7 +211,7 @@
       "Type A + DC 6mA leakage protection",
       "3-phase 32A for maximum speed"
     ],
-    "images": ["/images/products/home-ac-charger.jpg"],
+    "images": ["/images/products/home-wallbox-cable.jpg"],
     "specifications": {
       "power": "22KW",
       "input": "400VAC±20%, 50/60Hz, 32A, 3-phase",
@@ -253,7 +253,7 @@
       "LED/LCD 3.5\" + RFID authentication",
       "Cashless payment ready"
     ],
-    "images": ["/images/products/commercial-ac-charger.jpg"],
+    "images": ["/images/products/public-wallbox-cable.jpg"],
     "specifications": {
       "power": "7KW",
       "input": "230VAC±20%, 50/60Hz, 32A, 1-phase",
@@ -298,7 +298,7 @@
       "LED/LCD 3.5\" + RFID authentication",
       "3-phase 16A power"
     ],
-    "images": ["/images/products/commercial-ac-charger.jpg"],
+    "images": ["/images/products/public-wallbox-cable.jpg"],
     "specifications": {
       "power": "11KW",
       "input": "400VAC±20%, 50/60Hz, 16A, 3-phase",
@@ -342,7 +342,7 @@
       "LED/LCD 3.5\" + RFID authentication",
       "3-phase 32A maximum AC power"
     ],
-    "images": ["/images/products/commercial-ac-charger.jpg"],
+    "images": ["/images/products/public-wallbox-cable.jpg"],
     "specifications": {
       "power": "22KW",
       "input": "400VAC±20%, 50/60Hz, 32A, 3-phase",
@@ -386,7 +386,7 @@
       "Type A + DC 6mA leakage protection",
       "LED/LCD 3.5\" + RFID"
     ],
-    "images": ["/images/products/home-ac-charger.jpg"],
+    "images": ["/images/products/home-level2.jpg"],
     "specifications": {
       "power": "7.5KW",
       "input": "240VAC, 50/60Hz, 32A, 1-phase",
@@ -419,7 +419,7 @@
       "zh": "中功率Level 2家用壁挂充电桩，40A/9.6KW输出，适合北美市场。UL认证，SAE J1772接口。"
     },
     "features": ["UL certified for North America", "SAE J1772 40A connector", "Bluetooth/WiFi APP control", "9.6KW home charging", "NEMA 14-50 input plug optional"],
-    "images": ["/images/products/home-ac-charger.jpg"],
+    "images": ["/images/products/home-level2.jpg"],
     "specifications": {
       "power": "9.6KW",
       "input": "240VAC, 50/60Hz, 40A, 1-phase",
@@ -452,7 +452,7 @@
       "Type A + DC 6mA leakage protection",
       "Maximum Level 2 charging speed"
     ],
-    "images": ["/images/products/home-ac-charger.jpg"],
+    "images": ["/images/products/home-level2.jpg"],
     "specifications": {
       "power": "12KW",
       "input": "240VAC, 50/60Hz, 48A, 1-phase",
@@ -492,7 +492,7 @@
       "Bluetooth/WiFi/Ethernet/4G",
       "Dynamic Load Balance with CT+Meter"
     ],
-    "images": ["/images/products/commercial-ac-charger.jpg"],
+    "images": ["/images/products/pro-wallbox.jpg"],
     "specifications": {
       "power": "22KW",
       "input": "400VAC±20%, 50/60Hz, 32A, 3-phase (or 240VAC 48A 1-phase optional)",
@@ -538,7 +538,7 @@
       "MID certified energy meter",
       "WiFi / Ethernet / 4G connectivity"
     ],
-    "images": ["/images/products/commercial-ac-charger.jpg"],
+    "images": ["/images/products/twin-wallbox.jpg"],
     "specifications": {
       "power": "44KW (2×22KW)",
       "input": "400VAC±20%, 50/60Hz, 32A×2, 3-phase",
@@ -583,7 +583,7 @@
       "Vandal resistant and anti-corrosion",
       "Credit card payment optional"
     ],
-    "images": ["/images/products/commercial-ac-charger.jpg"],
+    "images": ["/images/products/twin-pedestal.jpg"],
     "specifications": {
       "power": "44KW (2×22KW)",
       "input": "400VAC±20%, 50/60Hz, 32A×2, 3-phase",
@@ -627,7 +627,7 @@
       "RFID + credit card payment",
       "Android platform for AD management"
     ],
-    "images": ["/images/products/commercial-ac-charger.jpg"],
+    "images": ["/images/products/ac-advertising.jpg"],
     "specifications": {
       "power": "44KW (2×22KW)",
       "input": "400VAC±20%, 50/60Hz, 32A×2, 3-phase",
@@ -669,7 +669,7 @@
       "150-1000VDC output range",
       "Wall mount or pedestal mount"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/mini-dc.jpg"],
     "specifications": {
       "power": "30KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase (CCS2/GB/T) / 480VAC (CCS1/NACS)",
@@ -710,7 +710,7 @@
       "zh": "紧凑型40KW直流快充，7英寸触摸屏。兼容CCS2/CCS1/NACS/GB/T，支持OCPP 1.6J。"
     },
     "features": ["7-inch touch screen LCD", "CCS2/CCS1/NACS/GB/T support", "OCPP 1.6J with TLS1.2", "ISO15118 / DIN70121", "IP54 indoor/outdoor"],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/mini-dc.jpg"],
     "specifications": {
       "power": "40KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase (CCS2/GB/T) | 480VAC (CCS1/NACS)",
@@ -745,7 +745,7 @@
       "200A maximum output current",
       "Credit card payment optional"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/mini-dc.jpg"],
     "specifications": {
       "power": "60KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase (CCS2/GB/T) / 480VAC (CCS1/NACS)",
@@ -786,7 +786,7 @@
       "zh": "大功率紧凑型直流充电桩，80KW输出，最大250A电流。适用于零售、办公和车队场景。"
     },
     "features": ["7-inch touch screen LCD", "CCS2/CCS1/NACS/GB/T support", "80KW with 250A output", "OCPP 1.6J with TLS1.2", "IP54 indoor/outdoor"],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/mini-dc.jpg"],
     "specifications": {
       "power": "80KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase",
@@ -821,7 +821,7 @@
       "OCPP 1.6J + Ethernet/4G",
       "Easy to move between locations"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/mobile-dc.jpg"],
     "specifications": {
       "power": "30KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase (CCS2/GB/T) / 480VAC (CCS1/NACS)",
@@ -860,7 +860,7 @@
       "zh": "大功率移动直流充电桩，40KW输出配移动推车。即插即充，灵活部署。"
     },
     "features": ["Lightweight and mobile with trolley", "Plug-and-charge automatic start", "CCS2/CCS1/NACS/GB/T", "7-inch touch screen", "OCPP 1.6J enabled"],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/mobile-dc.jpg"],
     "specifications": {
       "power": "40KW",
       "outputVoltage": "150~1000VDC",
@@ -893,7 +893,7 @@
       "7\" touch screen + RFID + APP",
       "Android-based AD platform"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/dc-advertising.jpg"],
     "specifications": {
       "power": "120KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase",
@@ -937,7 +937,7 @@
       "OCPP 1.6J + Ethernet/4G",
       "IP54 with IP65 optional"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/super-dc-120-240.jpg"],
     "specifications": {
       "power": "120KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase (CCS2/GB/T) / 480VAC (CCS1/NACS)",
@@ -977,7 +977,7 @@
       "zh": "双输出150KW直流充电桩，可选PTB认证计量。150-1000V恒功率，OCPP 1.6J，风冷设计。"
     },
     "features": ["Dual output simultaneous charging", "150KW high power", "PTB certified meter optional", "OCPP 1.6J + ISO15118", "Air cooled, IP54"],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/super-dc-120-240.jpg"],
     "specifications": {
       "power": "150KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase",
@@ -1003,7 +1003,7 @@
       "zh": "双输出180KW直流充电桩。商业充电站功率与成本的理想平衡。"
     },
     "features": ["Dual output simultaneous charging", "180KW optimal power", "PTB certified meter optional", "OCPP 1.6J + ISO15118", "Air cooled, IP54"],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/super-dc-120-240.jpg"],
     "specifications": {
       "power": "180KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase",
@@ -1036,7 +1036,7 @@
       "PTB certified energy meter",
       "Air cooled, IP54 (IP65 optional)"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/super-dc-120-240.jpg"],
     "specifications": {
       "power": "240KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase (CCS2/GB/T) / 480VAC (CCS1/NACS)",
@@ -1076,7 +1076,7 @@
       "zh": "大功率300KW直流充电桩，双输出。支持DIN70121即插即充，适用于高速公路和车队充电。"
     },
     "features": ["300KW high power", "DIN70121 Plug&Charge", "Dual output simultaneous", "Constant power 150~1000V", "Air cooled, IP54"],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/super-dc-300-360.jpg"],
     "specifications": {
       "power": "300KW",
       "outputVoltage": "150~1000VDC",
@@ -1108,7 +1108,7 @@
       "PTB certified energy meter",
       "Dual output simultaneous charging"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/super-dc-300-360.jpg"],
     "specifications": {
       "power": "360KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase (CCS2/GB/T) / 480VAC (CCS1/NACS)",
@@ -1154,7 +1154,7 @@
       "MID AC meter + PTB DC meter optional",
       "ISO15118 Plug&Charge ready"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/ac-dc-3in1.jpg"],
     "specifications": {
       "power": "60KW (max input)",
       "input": "400VAC±10%, 50/60Hz, 3-phase",
@@ -1198,7 +1198,7 @@
       "OCPP 1.6J (TLS1.2)",
       "CCS2 / CCS1 / NACS / GB/T / CHAdeMO"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/split-dc.jpg"],
     "specifications": {
       "power": "480KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase / 480VAC (CCS1/NACS)",
@@ -1240,7 +1240,7 @@
       "zh": "中档分体式直流充电系统，600KW容量。支持常规（250A）和液冷（600A）充电终端。"
     },
     "features": ["Split design: Power cabinet + Terminals", "Up to 8 outputs", "Liquid cooling 600A optional", "Intelligent power distribution", "Remote diagnosis & OTA"],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/split-dc.jpg"],
     "specifications": {
       "power": "600KW",
       "input": "400VAC/480VAC±10%, 3-phase",
@@ -1275,7 +1275,7 @@
       "ISO15118 / DIN70121 Plug&Charge",
       "Remote control, diagnosis, and OTA upgrades"
     ],
-    "images": ["/images/products/dc-charger.jpg"],
+    "images": ["/images/products/split-dc.jpg"],
     "specifications": {
       "power": "720KW",
       "input": "400VAC±10%, 50/60Hz, 3-phase / 480VAC (CCS1/NACS)",

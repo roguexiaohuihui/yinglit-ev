@@ -3,9 +3,25 @@ import categoriesData from "@/data/categories.json";
 import settingsData from "@/data/settings.json";
 import type { DataProvider, Product, Category, SiteSettings } from "../types";
 
+type RawProduct = Omit<Product, "images"> & { images: string[] };
+
+function normalizeImages(raw: RawProduct): Product {
+  return {
+    ...raw,
+    images: raw.images.map((src) => ({
+      src,
+      alt: raw.name.en || Object.values(raw.name)[0] || "",
+    })),
+  };
+}
+
+function normalizeAll(rawProducts: RawProduct[]): Product[] {
+  return rawProducts.map(normalizeImages);
+}
+
 const provider: DataProvider = {
   async getProducts(options) {
-    let products = productsData as unknown as Product[];
+    let products = normalizeAll(productsData as unknown as RawProduct[]);
     if (options?.category) {
       products = products.filter((p) => p.category === options.category);
     }
@@ -21,10 +37,10 @@ const provider: DataProvider = {
   },
 
   async getProductBySlug(slug) {
-    return (
-      (productsData as unknown as Product[]).find((p) => p.slug === slug) ||
-      null
+    const raw = (productsData as unknown as RawProduct[]).find(
+      (p) => p.slug === slug
     );
+    return raw ? normalizeImages(raw) : null;
   },
 
   async getCategories() {
