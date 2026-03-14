@@ -45,21 +45,21 @@ CROPS = [
     # --- About / Factory ---
     {
         "page": 3,
-        "area": (0.03, 0.58, 0.48, 0.95),
+        "area": (0.08, 0.58, 0.47, 0.88),
         "output": "public/images/about/factory.jpg",
-        "desc": "Company building exterior",
+        "desc": "Company building exterior (clean crop)",
     },
     {
         "page": 3,
-        "area": (0.50, 0.05, 1.0, 0.55),
+        "area": (0.53, 0.06, 0.95, 0.54),
         "output": "public/images/about/production.jpg",
-        "desc": "Production line photos grid",
+        "desc": "Production line photos grid (without page logo)",
     },
     {
         "page": 3,
-        "area": (0.50, 0.55, 1.0, 1.0),
+        "area": (0.53, 0.55, 0.95, 0.92),
         "output": "public/images/about/warehouse.jpg",
-        "desc": "Warehouse + testing equipment",
+        "desc": "Warehouse + testing equipment (without page number)",
     },
     # --- Certifications ---
     {

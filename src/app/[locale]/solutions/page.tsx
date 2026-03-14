@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import {
@@ -15,12 +14,12 @@ import {
   Smartphone,
   Server,
 } from "lucide-react";
+import { SolutionVisual } from "@/components/solution/solution-visual";
 
 const SOLUTIONS = [
   {
-    key: "home",
+    key: "home" as const,
     icon: Home,
-    image: "/images/solutions/home.jpg",
     products: ["YLEV7K-Y1", "YLEV11K-Y2", "YLEV22K-Y3", "YLEV32A-L1", "YLEV48A-L3"],
     features: [
       { icon: Smartphone, label: { en: "Bluetooth APP Control", zh: "蓝牙APP控制" } },
@@ -30,9 +29,8 @@ const SOLUTIONS = [
     ],
   },
   {
-    key: "commercial",
+    key: "commercial" as const,
     icon: Building2,
-    image: "/images/solutions/commercial.jpg",
     products: ["YLEV7K-S1", "YLEV22K-S3", "YLEV44K-T3", "YLEV44K-AD3"],
     features: [
       { icon: Server, label: { en: "OCPP 1.6J / 2.0", zh: "OCPP 1.6J / 2.0" } },
@@ -42,9 +40,8 @@ const SOLUTIONS = [
     ],
   },
   {
-    key: "public",
+    key: "public" as const,
     icon: Zap,
-    image: "/images/solutions/public.jpg",
     products: ["YLEV30K-D1", "YLEV120K-D5", "YLEV240K-D8", "YLEV480K-D11", "YLEV720K-D13"],
     features: [
       { icon: Zap, label: { en: "30-720KW DC Power", zh: "30-720KW直流功率" } },
@@ -124,14 +121,8 @@ export default function SolutionsPage() {
                   </Link>
                 </div>
 
-                <div className={`aspect-[4/3] bg-secondary rounded-2xl relative overflow-hidden ${isEven ? "lg:order-1" : ""}`}>
-                  <Image
-                    src={sol.image}
-                    alt={sol.key}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                  />
+                <div className={`aspect-[4/3] ${isEven ? "lg:order-1" : ""}`}>
+                  <SolutionVisual variant={sol.key} locale={locale} />
                 </div>
               </div>
             );

@@ -113,7 +113,7 @@ function ProductCard({ product, locale }: { product: Product; locale: string }) 
       href={`/${locale}/products/${product.slug}`}
       className="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all cursor-pointer"
     >
-      <div className="aspect-[4/3] bg-white relative overflow-hidden border-b border-border/60">
+      <div className="aspect-square bg-white relative overflow-hidden border-b border-border/60">
         <div className="absolute inset-0 flex items-center justify-center">
           <Zap className="w-16 h-16 text-primary/20" />
         </div>
