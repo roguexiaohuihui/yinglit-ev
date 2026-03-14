@@ -23,6 +23,7 @@ export function ProductDetailClient({
   const locale = useLocale();
   const t = useTranslations("products");
   const tCommon = useTranslations("common");
+  const primaryImage = product.media?.pdp || product.images[0];
 
   return (
     <section className="pt-24 lg:pt-28 pb-16 lg:pb-24">
@@ -38,16 +39,18 @@ export function ProductDetailClient({
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Image */}
-          <div className="aspect-square bg-white border border-border/70 rounded-2xl relative overflow-hidden shadow-sm">
+          <div className="aspect-square bg-[linear-gradient(180deg,rgba(244,250,255,0.92)_0%,#ffffff_62%)] border border-border/70 rounded-2xl relative overflow-hidden shadow-sm">
+            <div className="absolute inset-x-0 top-0 h-32 bg-[radial-gradient(circle_at_top,rgba(19,160,255,0.16),transparent_72%)]" />
+            <div className="absolute left-1/2 bottom-8 h-6 w-40 -translate-x-1/2 rounded-full bg-navy/10 blur-xl" />
             <div className="absolute inset-0 flex items-center justify-center">
               <Zap className="w-24 h-24 text-primary/10" />
             </div>
-            {product.images[0] && (
+            {primaryImage && (
               <Image
-                src={product.images[0].src}
-                alt={product.images[0].alt}
+                src={primaryImage.src}
+                alt={primaryImage.alt}
                 fill
-                className="object-contain p-8"
+                className="object-contain p-6"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 priority
               />

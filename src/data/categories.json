@@ -4,6 +4,7 @@
     "name": { "en": "Portable EV Charger", "zh": "便携式充电器" },
     "description": { "en": "Compact portable EV chargers. 3.5KW to 11KW.", "zh": "紧凑轻便的便携式充电器。3.5-11KW。" },
     "icon": "plug-zap",
+    "image": "/images/products/portable-charger.listing.jpg",
     "order": 1
   },
   {
@@ -11,6 +12,7 @@
     "name": { "en": "Home AC Charger", "zh": "家用交流充电桩" },
     "description": { "en": "Smart home wallbox with APP control and Dynamic Load Balance. 7-22KW EU, 7.5-12KW US Level 2.", "zh": "智能家用壁挂充电桩，APP控制和动态负载均衡。欧标7-22KW，美标7.5-12KW。" },
     "icon": "home",
+    "image": "/images/products/home-wallbox-cable.listing.jpg",
     "order": 2
   },
   {
@@ -18,6 +20,7 @@
     "name": { "en": "Commercial AC Charger", "zh": "商用交流充电桩" },
     "description": { "en": "OCPP-enabled commercial chargers with MID certified meters. Public wallbox, twin, pedestal, and advertising series.", "zh": "支持OCPP的商用充电桩，MID认证。壁挂、双枪、立柱、广告系列。" },
     "icon": "building-2",
+    "image": "/images/products/twin-wallbox.listing.jpg",
     "order": 3
   },
   {
@@ -25,6 +28,7 @@
     "name": { "en": "DC Fast Charger", "zh": "直流快充" },
     "description": { "en": "High-power DC fast chargers from 30KW to 720KW. CCS2/CCS1/NACS/GB/T/CHAdeMO.", "zh": "大功率直流快充，30KW至720KW。兼容全接口标准。" },
     "icon": "zap",
+    "image": "/images/products/super-dc-120-240.listing.jpg",
     "order": 4
   },
   {
@@ -32,6 +36,7 @@
     "name": { "en": "Energy Storage", "zh": "储能系统" },
     "description": { "en": "Integrated energy storage + charging with V2G, solar integration, and smart EMS.", "zh": "储充一体化，支持V2G、光伏集成和智能能源管理。" },
     "icon": "battery-charging",
+    "image": "/images/products/energy-storage.listing.jpg",
     "order": 5
   }
 ]

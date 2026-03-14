@@ -107,22 +107,25 @@ function ProductCard({ product, locale }: { product: Product; locale: string }) 
   const t = useTranslations("products");
   const maxPower = product.specifications["Max Power"] || product.specifications["Max Input Power"] || "";
   const certsList = product.certifications.slice(0, 3).join(" · ");
+  const listingImage = product.media?.listing || product.images[0];
 
   return (
     <Link
       href={`/${locale}/products/${product.slug}`}
       className="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all cursor-pointer"
     >
-      <div className="aspect-square bg-white relative overflow-hidden border-b border-border/60">
+      <div className="aspect-[6/5] bg-[linear-gradient(180deg,rgba(244,250,255,0.92)_0%,#ffffff_62%)] relative overflow-hidden border-b border-border/60">
+        <div className="absolute inset-x-0 top-0 h-28 bg-[radial-gradient(circle_at_top,rgba(19,160,255,0.16),transparent_72%)]" />
+        <div className="absolute left-1/2 bottom-5 h-5 w-32 -translate-x-1/2 rounded-full bg-navy/10 blur-xl" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <Zap className="w-16 h-16 text-primary/20" />
+          <Zap className="w-16 h-16 text-primary/10" />
         </div>
-        {product.images[0] && (
+        {listingImage && (
           <Image
-            src={product.images[0].src}
-            alt={product.images[0].alt}
+            src={listingImage.src}
+            alt={listingImage.alt}
             fill
-            className="object-contain p-6 group-hover:scale-[1.03] transition-transform duration-500"
+            className="object-contain p-2 sm:p-3 group-hover:scale-[1.03] transition-transform duration-500"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
         )}

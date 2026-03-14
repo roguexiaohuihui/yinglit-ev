@@ -1,3 +1,16 @@
+export type MediaAsset = {
+  src: string;
+  alt: string;
+  role?: "listing" | "pdp" | "gallery" | "variant";
+};
+
+export type ProductMedia = {
+  listing?: MediaAsset;
+  pdp?: MediaAsset;
+  gallery?: MediaAsset[];
+  variants?: Record<string, MediaAsset>;
+};
+
 export type Product = {
   slug: string;
   sku: string;
@@ -6,6 +19,7 @@ export type Product = {
   description: Record<string, string>;
   features: string[];
   images: { src: string; alt: string }[];
+  media?: ProductMedia;
   specifications: Record<string, string>;
   variants: { name: string; value: string }[];
   certifications: string[];
@@ -21,6 +35,7 @@ export type Category = {
   description: Record<string, string>;
   icon: string;
   order: number;
+  image?: string;
   productCount?: number;
 };
 

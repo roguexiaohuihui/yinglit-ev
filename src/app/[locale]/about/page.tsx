@@ -19,6 +19,18 @@ const MILESTONES = [
 export default function AboutPage() {
   const locale = useLocale();
   const t = useTranslations("about");
+  const overviewStats =
+    locale === "zh"
+      ? [
+          { value: "2017", label: "成立年份" },
+          { value: "25+", label: "服务国家" },
+          { value: "100+", label: "专利与软件著作" },
+        ]
+      : [
+          { value: "2017", label: "Founded" },
+          { value: "25+", label: "Countries Served" },
+          { value: "100+", label: "Patents & Software IP" },
+        ];
 
   return (
     <section className="pt-24 lg:pt-28 pb-16 lg:pb-24">
@@ -34,14 +46,29 @@ export default function AboutPage() {
         </div>
 
         {/* Story + Factory Image */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-20">
           <div>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {t("story")}
             </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
+              {overviewStats.map((stat) => (
+                <div
+                  key={stat.label}
+                  className="rounded-2xl border border-border/70 bg-secondary/30 px-5 py-4"
+                >
+                  <div className="font-heading text-2xl font-bold text-foreground">
+                    {stat.value}
+                  </div>
+                  <div className="text-sm text-muted-foreground mt-1">
+                    {stat.label}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
           <div className="space-y-4">
-            <div className="rounded-2xl overflow-hidden aspect-[16/10]">
+            <div className="rounded-2xl overflow-hidden aspect-[16/10] border border-border/60 bg-card shadow-sm">
               <Image
                 src="/images/about/factory.jpg"
                 alt="Yingli Technology Headquarters"
@@ -51,16 +78,16 @@ export default function AboutPage() {
               />
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <div className="rounded-xl overflow-hidden aspect-[4/3]">
+              <div className="rounded-xl overflow-hidden aspect-[4/3] border border-border/60 bg-card">
                 <Image
                   src="/images/about/production.jpg"
                   alt="Production Line"
                   width={400}
                   height={300}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-left"
                 />
               </div>
-              <div className="rounded-xl overflow-hidden aspect-[4/3]">
+              <div className="rounded-xl overflow-hidden aspect-[4/3] border border-border/60 bg-card">
                 <Image
                   src="/images/about/warehouse.jpg"
                   alt="Warehouse & Testing"

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "products": {
+    "portable-ev-box-3-5kw": {
+      "listing": "/images/products/portable-charger.listing.jpg"
+    },
+    "portable-ev-box-7kw": {
+      "listing": "/images/products/portable-charger.listing.jpg"
+    },
+    "portable-ev-box-11kw": {
+      "listing": "/images/products/portable-charger.listing.jpg"
+    },
+    "home-wallbox-7kw": {
+      "listing": "/images/products/home-wallbox-cable.listing.jpg"
+    },
+    "home-wallbox-11kw": {
+      "listing": "/images/products/home-wallbox-cable.listing.jpg"
+    },
+    "home-wallbox-22kw": {
+      "listing": "/images/products/home-wallbox-cable.listing.jpg"
+    },
+    "public-wallbox-7kw": {
+      "listing": "/images/products/public-wallbox-cable.listing.jpg"
+    },
+    "public-wallbox-11kw": {
+      "listing": "/images/products/public-wallbox-cable.listing.jpg"
+    },
+    "public-wallbox-22kw": {
+      "listing": "/images/products/public-wallbox-cable.listing.jpg"
+    },
+    "home-level2-32a-7-5kw": {
+      "listing": "/images/products/home-level2.listing.jpg"
+    },
+    "home-wallbox-level2-40a": {
+      "listing": "/images/products/home-level2.listing.jpg"
+    },
+    "home-level2-48a-12kw": {
+      "listing": "/images/products/home-level2.listing.jpg"
+    },
+    "pro-wallbox-22kw": {
+      "listing": "/images/products/pro-wallbox.listing.jpg"
+    },
+    "twin-wallbox-44kw": {
+      "listing": "/images/products/twin-wallbox.listing.jpg"
+    },
+    "twin-pedestal-44kw": {
+      "listing": "/images/products/twin-pedestal.listing.jpg"
+    },
+    "ac-advertising-pedestal-44kw": {
+      "listing": "/images/products/ac-advertising.listing.jpg"
+    },
+    "mini-dc-30kw": {
+      "listing": "/images/products/mini-dc.listing.jpg"
+    },
+    "mini-dc-40kw": {
+      "listing": "/images/products/mini-dc.listing.jpg"
+    },
+    "mini-dc-60kw": {
+      "listing": "/images/products/mini-dc.listing.jpg"
+    },
+    "mini-dc-80kw": {
+      "listing": "/images/products/mini-dc.listing.jpg"
+    },
+    "mobile-dc-30kw": {
+      "listing": "/images/products/mobile-dc.listing.jpg"
+    },
+    "mobile-dc-40kw": {
+      "listing": "/images/products/mobile-dc.listing.jpg"
+    },
+    "dc-advertising-pedestal-120kw": {
+      "listing": "/images/products/dc-advertising.listing.jpg"
+    },
+    "super-dc-120kw": {
+      "listing": "/images/products/super-dc-120-240.listing.jpg"
+    },
+    "super-dc-150kw": {
+      "listing": "/images/products/super-dc-120-240.listing.jpg"
+    },
+    "super-dc-180kw": {
+      "listing": "/images/products/super-dc-120-240.listing.jpg"
+    },
+    "super-dc-240kw": {
+      "listing": "/images/products/super-dc-120-240.listing.jpg"
+    },
+    "super-dc-300kw": {
+      "listing": "/images/products/super-dc-300-360.listing.jpg"
+    },
+    "super-dc-360kw": {
+      "listing": "/images/products/super-dc-300-360.listing.jpg"
+    },
+    "3-in-1-ac-dc-60kw": {
+      "listing": "/images/products/ac-dc-3in1.listing.jpg"
+    },
+    "split-dc-480kw": {
+      "listing": "/images/products/split-dc.listing.jpg"
+    },
+    "split-dc-600kw": {
+      "listing": "/images/products/split-dc.listing.jpg"
+    },
+    "split-dc-720kw": {
+      "listing": "/images/products/split-dc.listing.jpg"
+    },
+    "energy-storage-480kw": {
+      "listing": "/images/products/energy-storage.listing.jpg"
+    },
+    "home-storage-10kwh": {
+      "listing": "/images/products/energy-storage.listing.jpg"
+    }
+  }
+}

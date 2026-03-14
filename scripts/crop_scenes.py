@@ -13,9 +13,9 @@ CROPS = [
     # --- Hero ---
     {
         "page": 1,
-        "area": (0.52, 0.08, 1.0, 0.78),
+        "area": (0.62, 0.24, 0.99, 0.81),
         "output": "public/images/hero-home.jpg",
-        "desc": "Home charging scene (Tesla + solar)",
+        "desc": "Home charging scene (clean crop without brochure logo)",
     },
     {
         "page": 1,
@@ -51,9 +51,9 @@ CROPS = [
     },
     {
         "page": 3,
-        "area": (0.53, 0.06, 0.95, 0.54),
+        "area": (0.54, 0.12, 0.95, 0.90),
         "output": "public/images/about/production.jpg",
-        "desc": "Production line photos grid (without page logo)",
+        "desc": "Production line photo grid (logo-free crop)",
     },
     {
         "page": 3,
@@ -64,9 +64,9 @@ CROPS = [
     # --- Certifications ---
     {
         "page": 4,
-        "area": (0.12, 0.08, 1.0, 0.98),
+        "area": (0.15, 0.14, 0.95, 0.89),
         "output": "public/images/certs/certificates.jpg",
-        "desc": "Enterprise qualification certificates grid",
+        "desc": "Enterprise qualification certificates grid (logo/page-number removed)",
     },
     # --- Project Cases ---
     {
