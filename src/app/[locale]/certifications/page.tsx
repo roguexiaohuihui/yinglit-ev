@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Shield, Award, FileCheck, Globe, CheckCircle2 } from "lucide-react";
+import { CERTIFICATION_EVIDENCE } from "@/data/visual-evidence";
 
 const CERT_GROUPS = [
   {
@@ -55,6 +56,7 @@ const CERT_GROUPS = [
 export default function CertificationsPage() {
   const locale = useLocale();
   const t = useTranslations("certs");
+  const isZh = locale === "zh";
 
   return (
     <section className="pt-24 lg:pt-28 pb-16 lg:pb-24">
@@ -90,21 +92,21 @@ export default function CertificationsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_1.4fr] gap-6 mb-16 items-start">
           <div className="rounded-2xl border border-border bg-secondary/30 p-6 lg:p-7">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-[0.18em] mb-5">
-              {locale === "zh" ? "原始资质样本" : "Original evidence"}
+              {isZh ? "原始资质样本" : "Original evidence"}
             </div>
             <h2 className="font-heading text-2xl font-bold mb-3">
-              {locale === "zh" ? "资质文件可追溯" : "Certification Evidence You Can Verify"}
+              {isZh ? "资质文件可追溯" : "Certification Evidence You Can Verify"}
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-5">
-              {locale === "zh"
+              {isZh
                 ? "除了产品参数说明，我们还保留第三方测试报告、专利文件和补贴资质材料，可在 RFQ、投标和合规评估阶段按需提供。"
                 : "Beyond specsheets, we maintain third-party test reports, patent records, and subsidy-eligibility documents for RFQs, tenders, and compliance review."}
             </p>
             <div className="space-y-3 text-sm">
               {[
-                locale === "zh" ? "CE / IEC / EMC 相关测试资料" : "CE / IEC / EMC supporting reports",
-                locale === "zh" ? "德国 KfW 与英国 EVHS 资质覆盖" : "Germany KfW and UK EVHS subsidy eligibility",
-                locale === "zh" ? "专利与软件著作可配合 OEM 审核" : "Patent and software-IP evidence for OEM due diligence",
+                isZh ? "CE / IEC / EMC 相关测试资料" : "CE / IEC / EMC supporting reports",
+                isZh ? "德国 KfW 与英国 EVHS 资质覆盖" : "Germany KfW and UK EVHS subsidy eligibility",
+                isZh ? "专利与软件著作可配合 OEM 审核" : "Patent and software-IP evidence for OEM due diligence",
               ].map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-primary shrink-0 mt-0.5" />
@@ -114,14 +116,31 @@ export default function CertificationsPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl overflow-hidden border border-border bg-white shadow-sm">
-            <Image
-              src="/images/certs/certificates.jpg"
-              alt="Enterprise qualification certificates"
-              width={1400}
-              height={980}
-              className="w-full h-auto"
-            />
+          <div className="grid grid-cols-2 gap-4">
+            {CERTIFICATION_EVIDENCE.map((item) => (
+              <div
+                key={item.id}
+                className="rounded-2xl border border-border/70 bg-white p-3 shadow-sm"
+              >
+                <div className="relative aspect-[3/4] overflow-hidden rounded-xl bg-secondary/20">
+                  <Image
+                    src={item.src}
+                    alt={isZh ? item.alt.zh : item.alt.en}
+                    fill
+                    className="object-contain p-2"
+                    sizes="(max-width: 1024px) 50vw, 22vw"
+                  />
+                </div>
+                <div className="mt-3">
+                  <div className="text-sm font-medium leading-snug">
+                    {isZh ? item.title.zh : item.title.en}
+                  </div>
+                  <div className="text-xs text-muted-foreground mt-1">
+                    {isZh ? "原始资质页精选样本" : "Selected original compliance sample"}
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
