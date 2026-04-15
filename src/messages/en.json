@@ -33,7 +33,7 @@
     "categoriesSubtitle": "Full-range EV charging solutions for every scenario",
     "solutionsTitle": "Charging Solutions",
     "solutionsSubtitle": "Comprehensive solutions for home, commercial, and public charging",
-    "whyUsTitle": "Why Choose Yinglit",
+    "whyUsTitle": "Why Choose YINGLITECH",
     "ctaTitle": "Ready to Power Your EV Charging Business?",
     "ctaSubtitle": "Contact us today for ODM & OEM inquiries. Fast response within 24 hours."
   },
@@ -86,9 +86,9 @@
     "appDesc": "Connects EV drivers with charging stations. Location search, charging monitor, and payment settlement — all in one app."
   },
   "about": {
-    "title": "About Yinglit",
+    "title": "About YINGLITECH",
     "subtitle": "Powering e-Mobility since 2017",
-    "story": "Founded in 2017, Yinglit (Shenzhen Yingli Technology) is a total-solution supplier of EV charging stations and cloud management systems. With a top R&D team and rich experience in international protocols (OCPP 1.6J+), we serve operators across 25+ countries.",
+    "story": "Founded in 2017, Shenzhen Yingli Technology is a total-solution supplier of EV charging stations and cloud management systems. With a top R&D team and rich experience in international protocols (OCPP 1.6J+), we serve operators across 25+ countries.",
     "innovation": "Product Innovation",
     "innovationDesc": "Modular designed products facilitate customization. Every year we upgrade our products and develop new technology (Bluetooth Mesh, ISO15118, OCPP 1.6J+).",
     "capacity": "Flexible Production",
@@ -116,6 +116,6 @@
     "quickLinks": "Quick Links",
     "productCategories": "Products",
     "contactUs": "Contact Us",
-    "copyright": "© 2025 Yinglit. All rights reserved."
+    "copyright": "© 2025 YINGLITECH. All rights reserved."
   }
 }

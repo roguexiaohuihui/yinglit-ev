@@ -11,11 +11,11 @@ export function BrandWordmark({
     <div className={cn("flex flex-col leading-none", className)}>
       <span
         className={cn(
-          "font-heading text-lg font-bold uppercase tracking-[0.26em]",
+          "font-heading text-base font-bold uppercase tracking-[0.18em] sm:text-lg sm:tracking-[0.22em]",
           inverted ? "text-white" : "text-navy"
         )}
       >
-        Yinglit
+        YINGLITECH
       </span>
       <span
         className={cn(

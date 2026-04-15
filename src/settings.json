@@ -1,5 +1,5 @@
 {
-  "siteName": "Yinglit",
+  "siteName": "YINGLITECH",
   "companyName": "Shenzhen Yingli Technology Co., Ltd.",
   "siteUrl": "https://yinglit-ev.vercel.app",
   "logo": "/logo.svg",
@@ -38,7 +38,7 @@
     "maxPower": "720KW"
   },
   "seo": {
-    "titleTemplate": "%s | Yinglit - EV Charging Solutions",
+    "titleTemplate": "%s | YINGLITECH - EV Charging Solutions",
     "defaultDescription": "Professional EV charging station manufacturer. Full-range products from 3.5KW portable chargers to 720KW split DC fast chargers. ODM & OEM services for global markets."
   }
 }

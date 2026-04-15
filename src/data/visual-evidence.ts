@@ -148,7 +148,7 @@ export const ABOUT_EVIDENCE: VisualEvidenceItem[] = [
       zh: "自动化装配线",
     },
     alt: {
-      en: "Automated assembly line inside Yinglit production facility",
+      en: "Automated assembly line inside YINGLITECH production facility",
       zh: "盈利科技生产设施内的自动化装配线",
     },
   },
@@ -190,7 +190,7 @@ export const ABOUT_EVIDENCE: VisualEvidenceItem[] = [
       zh: "生产车间",
     },
     alt: {
-      en: "Production floor inspection area in Yinglit factory",
+      en: "Production floor inspection area in YINGLITECH factory",
       zh: "盈利工厂内的生产车间巡检区域",
     },
   },

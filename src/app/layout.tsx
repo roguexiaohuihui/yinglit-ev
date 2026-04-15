@@ -17,7 +17,7 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Yinglit - EV Charging Solutions",
+  title: "YINGLITECH - EV Charging Solutions",
   description:
     "Professional EV charging station manufacturer. Full-range products from 3.5KW portable to 720KW DC fast chargers. ODM & OEM for global markets.",
 };

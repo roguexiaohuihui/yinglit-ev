@@ -163,7 +163,7 @@ export function ProductDetailClient({
               description: product.description.en || product.features.join(". "),
               sku: product.sku,
               image: product.images.map((img) => img.src),
-              brand: { "@type": "Brand", name: "Yinglit" },
+              brand: { "@type": "Brand", name: "YINGLITECH" },
             }),
           }}
         />
